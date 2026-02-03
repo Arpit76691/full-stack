@@ -1,0 +1,131 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body background */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a7bd1, #7b5bbd);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Marquee */
+marquee {
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+/* Main container */
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card wrapper */
+.form-wrapper {
+    width: 360px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #6a7bd1, #7b5bbd);
+    padding: 22px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Form */
+.registration-form {
+    padding: 25px;
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Inputs */
+.form-group input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1.5px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form-group input::placeholder {
+    color: #aaa;
+}
+
+.form-group input:focus {
+    border-color: #6a7bd1;
+    box-shadow: 0 0 0 2px rgba(106, 123, 209, 0.2);
+}
+
+/* Submit button */
+.submit-btn {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #6a7bd1, #7b5bbd);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(106, 123, 209, 0.35);
+}
+
+/* Footer */
+.footer-text {
+    border-top: 1px solid #eee;
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+}
+
+.footer-text a {
+    color: #6a7bd1;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
